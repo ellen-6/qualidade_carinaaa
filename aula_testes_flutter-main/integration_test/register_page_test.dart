@@ -78,7 +78,7 @@ void main() {
           await tester.tap(emailField);
           await tester.pumpAndSettle();
 
-          await tester.enterText(emailField, 'william');
+          await tester.enterText(emailField, 'carina');
           await tester.pumpAndSettle();
 
           final registerButton = find.byKey(const Key('register_button_key'));
@@ -102,7 +102,7 @@ void main() {
           await tester.tap(emailField);
           await tester.pumpAndSettle();
 
-          await tester.enterText(emailField, 'william@gmail.com');
+          await tester.enterText(emailField, 'carina@gmail.com');
           await tester.pumpAndSettle();
 
           final registerButton = find.byKey(const Key('register_button_key'));
@@ -146,7 +146,7 @@ void main() {
           await tester.tap(emailField);
           await tester.pumpAndSettle();
 
-          await tester.enterText(emailField, 'william@gmail.com');
+          await tester.enterText(emailField, 'carina@gmail.com');
           await tester.pumpAndSettle();
 
           final registerButton = find.byKey(const Key('register_button_key'));
@@ -170,7 +170,7 @@ void main() {
           await tester.tap(emailField);
           await tester.pumpAndSettle();
 
-          await tester.enterText(emailField, 'william@gmail.com');
+          await tester.enterText(emailField, 'carina@gmail.com');
           await tester.pumpAndSettle();
 
           final passwordField = find.byKey(const Key('password_key'));
@@ -201,7 +201,7 @@ void main() {
           await tester.tap(emailField);
           await tester.pumpAndSettle();
 
-          await tester.enterText(emailField, 'william@gmail.com');
+          await tester.enterText(emailField, 'carina@gmail.com');
           await tester.pumpAndSettle();
 
           final passwordField = find.byKey(const Key('password_key'));
@@ -235,14 +235,14 @@ void main() {
           await tester.tap(emailField);
           await tester.pumpAndSettle();
 
-          await tester.enterText(emailField, 'william@gmail.com');
+          await tester.enterText(emailField, 'carina@gmail.com');
           await tester.pumpAndSettle();
 
           final passwordField = find.byKey(const Key('password_key'));
           await tester.tap(passwordField);
           await tester.pumpAndSettle();
 
-          await tester.enterText(passwordField, 'william');
+          await tester.enterText(passwordField, 'carina');
           await tester.pumpAndSettle();
 
           final registerButton = find.byKey(const Key('register_button_key'));
@@ -269,14 +269,14 @@ void main() {
           await tester.tap(emailField);
           await tester.pumpAndSettle();
 
-          await tester.enterText(emailField, 'william@gmail.com');
+          await tester.enterText(emailField, 'carina@gmail.com');
           await tester.pumpAndSettle();
 
           final passwordField = find.byKey(const Key('password_key'));
           await tester.tap(passwordField);
           await tester.pumpAndSettle();
 
-          await tester.enterText(passwordField, 'william123');
+          await tester.enterText(passwordField, 'carina123');
           await tester.pumpAndSettle();
 
           final registerButton = find.byKey(const Key('register_button_key'));
@@ -323,7 +323,7 @@ void main() {
           await tester.tap(emailField);
           await tester.pumpAndSettle();
 
-          await tester.enterText(emailField, 'william');
+          await tester.enterText(emailField, 'carina');
           await tester.pumpAndSettle();
 
           final passwordField = find.byKey(const Key('password_key'));
@@ -357,14 +357,14 @@ void main() {
           await tester.tap(emailField);
           await tester.pumpAndSettle();
 
-          await tester.enterText(emailField, 'william@gmail.com');
+          await tester.enterText(emailField, 'carina@gmail.com');
           await tester.pumpAndSettle();
 
           final passwordField = find.byKey(const Key('password_key'));
           await tester.tap(passwordField);
           await tester.pumpAndSettle();
 
-          await tester.enterText(passwordField, 'william123');
+          await tester.enterText(passwordField, 'carina123');
           await tester.pumpAndSettle();
 
           final registerButton = find.byKey(const Key('register_button_key'));
